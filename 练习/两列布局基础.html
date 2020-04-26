@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.header{
+				position: fixed;
+				top: 0;
+				width: 100%;
+				height: 100px;
+				background: black;
+				color: white;
+			}
+			.header img{
+				float: left;
+			}
+			
+			.header ul{
+				float: right;
+				list-style-type: none;
+			}
+			.header li{
+				font-size: 25px;
+				float: left;
+				line-height: 100px;
+				margin-right: 80px;
+			}
+			.footer{
+				position: fixed;
+				bottom: 0;
+				width: 100%;
+				height: 100px;
+				background: black;
+				color: white;
+			}
+			.footer ul{
+				list-style-type: none;
+				text-align: center;
+			}
+			.footer li{
+				font-size: 25px;
+				display: inline;
+				line-height: 100px;
+				margin: 0 15px;
+			}
+			.banner{
+				padding-top: 100px;
+				padding-bottom: 100px;
+			}
+			.banner img{
+				width: 100%;
+				display: block;
+			}
+			.content{
+				width: 100%;
+				height: 800px;
+				background: lightblue;
+			}
+			.left,.right{
+				width: 50%;
+				float: left;
+				padding-top: 100px;	
+			}
+			.left ul{
+				margin-top: 10%;
+				margin-left: 30%
+			}
+			.left li{
+				margin-bottom: 15px;
+				list-style-type: none;
+			}
+			.left span{
+				background: #f88f89;
+				margin-right: 15px;
+			}
+			.one{
+				font-size: 25px;
+				font-weight: bold;
+			}
+			.right ul{
+				margin-top: 10%;
+				margin-left: 10%;
+			}
+			.right ul li span{
+				margin-right: 5%;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<img src="http://climg.mukewang.com/58c0d2d900016ce303000100.png" >
+			<ul>
+				<li>课程</li>
+				<li>职业路径</li>
+				<li>实战</li>
+				<li>猿问</li>
+				<li>手记</li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="left">
+				<ul>
+					<li class="one">课程推荐</li>
+					<li><span>职业路径</span>HTML5与CSS3实现动态网页</li>
+					<li><span>职业路径</span>零基础入门Android语法与界面</li>
+					<li><span>职业路径</span>ios基础语法与常用控件</li>
+					<li><span>职业路径</span>PHP入门开发</li>
+					<li><span>职业路径</span>JAVA入门开发</li>
+				</ul>
+			</div>
+			<div class="right">
+				<ul>
+					<li class="one">相关课程</li>
+					<li><span>HTML</span><span>CSS</span><span>javascript</span></li>
+					<li><span>html5</span><span>css3</span><span>jquery</span></li>
+					<li><span>移动端基础</span><span>移动端APP开发</span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer">
+			<ul>
+				<li>网站首页</li>
+				<li>企业合作</li>
+				<li>人才招聘</li>
+				<li>联系我们</li>
+				<li>常见问题</li>
+				<li>友情链接</li>
+			</ul>
+		</div>
+	</body>
+</html>

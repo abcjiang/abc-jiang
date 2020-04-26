@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<!--
+        	1、根据效果图创建一个5行表格布局。
+            2、整体表格居中显示。
+            3、相应行的背景颜色为pink，orange，black，宽度充满整个页面。
+            4、背景色为“pink”和“black” 的行高为80px
+            5、背景色为“白色” 的行高为10px
+            6、背景色为“orange”的行内嵌套一个1行3列的表格，水平居中显示，
+                                 左侧内容宽度240px，中间橘色空列20px；右侧内容宽度764px
+       -->
+       <table width="100%" align="center ">
+       	<tr bgcolor="pink" height="80px"><td>Headerasfsaf</td>
+		<td>你哈</td></tr>
+       	<tr height="10px"><td></td></tr>
+       	<tr bgcolor="orange"><td>
+       		<table align="center" border="1px">
+       			<tr>
+       				<td width="240px" bgcolor="white">左侧内容</td>
+       				<td width="20px"></td>
+       				<td width="764px" bgcolor="white">右侧内容</td>
+       			</tr>
+       		</table>
+       	</td></tr>
+       	<tr height="10px"><td></td></tr>
+       	<tr bgcolor="black" height="80px"><td>Data</td></tr>
+       </table>
+	</body>
+</html>

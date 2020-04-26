@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*网页头部*/
+.header{
+	width: 100%;
+	height: 70px;
+	background:#07cbc9 ;
+	line-height: 70px;
+	position: fixed;
+	top: 0;
+	z-index: 2;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.logo{
+	width: 300px;
+	height: 70px;
+	float: left;
+	margin-left: 100px;
+}
+/*logo图片垂直居中*/
+.logo img{
+	width: 260px;
+	height: 48px;
+	margin-top: 11px;
+}
+/*导航项样式*/
+.header ul{
+	float: right;
+	list-style-type: none;
+	margin-right: 100px;
+}
+.header ul li{
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.header ul li:hover{
+	background: black;	
+}
+/*banner区样式*/
+.banner{
+	margin-top:70px;
+}
+.banner .banner_img{
+	width: 100%;
+	height: 500px;
+}
+.banner .banner_img img{
+	width: 100%;
+	height: 500px;
+}
+/*遮罩层样式*/
+.banner .banner_layer{
+	position: absolute;
+	top: 70px;
+	width: 100%;
+	height: 500px;
+	background: black;
+	opacity: 0.5;
+}
+/*表单样式*/
+.banner .inp{
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	top: 170px;
+	right: 50%;
+	margin-right: -250px;
+	z-index: 1;
+	text-align: center;
+}
+.banner .inp form input,textarea{
+	padding: 10px;
+	margin-bottom:20px ;
+	border: 1px solid #888;
+	background:  transparent;
+	color: #888;
+}
+.banner .inp form input:hover,textarea:hover{
+	border: 1px solid #07cbc9;
+}
+.banner .inp form .but:hover{
+	border: none;
+	background:#07cbc9 ;
+}
+/*about区样式*/
+.about{
+	width: 100%;
+	height: 1000px;
+	background: pink;
+	text-align: center;
+}
+.top{
+	width: 500px;
+	height: 150px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.top h3{
+	font-size: 30px;
+}
+.top span{
+	color: #888;
+	display:inline-block;
+	width: 510px;
+}
+.top .one{
+	display: inline-block;
+	width: 25px;
+	height: 15px;
+	border-bottom: 3px solid #07cbc9;
+	margin-bottom: 12px;
+}
+.midd{
+	width: 1000px;
+	height: 500px;
+	background: white;
+	margin: 0 auto;
+}
+.midd .left{
+	text-align: left;
+	width: 325px;
+	height: 350px;
+	position: absolute;
+	left: 300px;
+}
+.midd .left h4{
+	font-size: 30px;
+	font-weight: normal;
+	text-indent: 15px;
+	margin-left: 10px;
+}
+.midd .left .left-2{
+	border: 1px solid #888;
+	padding: 30px;
+	background:rgb(255,255,255,0.4)
+}
+.midd .left .left-2 button{
+	width: 90px;
+	height: 40px;
+	background: black;
+	color: white;
+	font-size: 16px;
+	border: none;
+	margin-top: 20px;
+}
+.midd .center img{
+	width: 510px;
+	height: 400px;
+}
+
+
+

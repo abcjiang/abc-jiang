@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.one{
+			width: 100%;
+			height: 100px;
+			background-color: black;
+			color: wheat;
+			position: fixed;
+		}
+		.two{
+
+			list-style-type: none;
+			float: right;
+		}
+		.two li{
+			float: left;
+			font-family: '微软雅黑';
+			font-size: 24px;
+			font-weight: bold;
+            line-height: 100px;
+			margin-right: 100px;
+		}
+		.footer{
+			width: 100%;
+			height: 100px;
+			background-color: black;
+			position: fixed;
+			bottom: 0;
+			color: white;
+			text-align: center;
+		}
+		.footer ul{
+			
+			display: inline-block;
+			list-style-type: none;
+		}
+		.footer ul li{
+			float: left;
+			font-family: '微软雅黑';
+			font-size: 24px;
+			font-weight: bold;
+            line-height: 100px;			
+		}
+		.banner{
+			width: 100%;
+			height: 700px;
+			background-color: blue;
+		}
+		.left{
+			width: 50%;
+			height: 600px;
+			float: left;
+			background-color: green;
+			margin-top: 100px;	
+			position: relative;
+		}
+		.left1{
+			position: absolute;
+			width: 350px;
+			height: 150px;
+			margin-top: 75px;
+			left: 50%;
+			margin-left: -175px;
+			line-height: 50px;
+		}
+		ul{
+			list-style-type: none;
+		}
+		.left1 ul li span{
+			background-color: pink;
+			margin-right: 20px;
+		}
+		.right{
+			width: 50%;
+			height: 700px;
+			float: right;
+			background-color: pink;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="one">
+			<a href="#"><img src="http://climg.mukewang.com/58c0d2d900016ce303000100.png" alt=""></a>
+            <ul class="two">
+				<li>课程</li>
+				<li>职业路径</li>
+				<li>实战</li>
+				<li>提问</li>
+				<li>手记</li>
+			</ul>
+		</div>
+		<!--图片-->
+		<div class="banner">
+			<div class="left">
+				<div class="left1">
+				<h2>课程推荐</h2>
+				<ul>
+					<li><span>职业路径</span>网站首页网站首页网站首页</li>
+					<li><span>职业路径</span>网站首页网站首页网站首页</li>
+					<li><span>职业路径</span>网站首页网站首页</li>
+					<li><span>职业路径</span>网站首页网站首页网站首页</li>
+					<li><span>职业路径</span>网站首页网站首页网站首页网站首页</li>
+				</ul>
+			</div>
+			</div>
+			<div class="right"></div>
+		</div>
+		<div class="footer footerfix">
+            <ul>
+				<li>网站首页</li>
+				<li>企业合作</li>
+				<li>人才招聘</li>
+				<li>联系我们</li>
+				<li>常见问题</li>
+				<li>友情链接</li>
+			</ul>
+		</div>
+	</body>
+</html>

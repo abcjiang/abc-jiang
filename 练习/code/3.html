@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .banner{
+            width: 590px;
+            height: 470px;
+            position: relative;
+            margin: auto;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+        img{
+            width: 590px;
+            height: 470px;
+            position: absolute;
+        }
+        ul{
+            list-style: none;
+            position: absolute;
+            bottom: 10px;
+            left: 20px;
+        }
+        li{
+            float: left;
+            margin-left: 5px;
+        }
+        li:before{
+            content: "○";
+            font-size: 20px;
+        }
+        li:hover:before{
+            content: "●";
+        }
+        li:nth-child(1):hover img:nth-child(1){
+             z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <span><a href="#"><img src="img/34aa3e018886047b.jpg.webp" alt=""></a></span>
+        <span><a href="#"><img src="img/36f756fc70bec0a4.jpg.webp" alt=""></a></span>
+        <span><a href="#"><img src="img/ee4af8446f4042bf.jpg.webp" alt=""></a></span>
+        <span><a href="#"><img src="img/f0969616c10e2d71.jpg.webp" alt=""></a></span>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</body>
+</html>
